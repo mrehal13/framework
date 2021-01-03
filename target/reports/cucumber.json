@@ -1,0 +1,158 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7118000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "validate the browser",
+            "match": {
+              "location": "com.web.RiaLogin.validate_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T19:52:04.455Z",
+        "line": 7,
+        "name": "Verify successfull login",
+        "description": "",
+        "id": "login-to-website;verify-successfull-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10368000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User opens the browser and navigates to home page",
+            "match": {
+              "location": "com.web.RiaLogin.user_opens_the_browser_and_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4620000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters username and password and click submit button",
+            "match": {
+              "location": "com.web.RiaLogin.user_enters_username_and_password_and_click_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User logs in successfully and lands on dashboard",
+            "match": {
+              "location": "com.web.RiaLogin.user_logs_in_successfully_and_lands_on_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7011000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "validate the browser",
+            "match": {
+              "location": "com.web.RiaLogin.validate_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-21T19:52:26.714Z",
+        "line": 25,
+        "name": "Verify successfull login",
+        "description": "",
+        "id": "login-to-website;verify-successfull-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11085000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User opens the browser and navigates to home page",
+            "match": {
+              "location": "com.web.RiaLogin.user_opens_the_browser_and_navigates_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5218000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters username and password and click submit button",
+            "match": {
+              "location": "com.web.RiaLogin.user_enters_username_and_password_and_click_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User logs in successfully and lands on dashboard",
+            "match": {
+              "location": "com.web.RiaLogin.user_logs_in_successfully_and_lands_on_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login to website",
+    "description": "",
+    "id": "login-to-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuresfolder/RiaLogin.feature",
+    "tags": []
+  }
+]

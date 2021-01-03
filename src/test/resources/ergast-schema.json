@@ -1,0 +1,130 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "properties": {
+        "MRData": {
+            "$id": "#/properties/MRData",
+            "type": "object",
+            "properties": {
+                "xmlns": {
+                    "$id": "#/properties/MRData/properties/xmlns",
+                    "type": "string"
+                },
+                "series": {
+                    "$id": "#/properties/MRData/properties/series",
+                    "type": "string"
+                },
+                "url": {
+                    "$id": "#/properties/MRData/properties/url",
+                    "type": "string"
+                },
+                "limit": {
+                    "$id": "#/properties/MRData/properties/limit",
+                    "type": "string"
+                },
+                "offset": {
+                    "$id": "#/properties/MRData/properties/offset",
+                    "type": "string"
+                },
+                "total": {
+                    "$id": "#/properties/MRData/properties/total",
+                    "type": "string"
+                },
+                "RaceTable": {
+                    "$id": "#/properties/MRData/properties/RaceTable",
+                    "type": "object",
+                    "properties": {
+                        "season": {
+                            "$id": "#/properties/MRData/properties/RaceTable/properties/season",
+                            "type": "string"
+                        },
+                        "round": {
+                            "$id": "#/properties/MRData/properties/RaceTable/properties/round",
+                            "type": "string"
+                        },
+                        "Races": {
+                            "$id": "#/properties/MRData/properties/RaceTable/properties/Races",
+                            "type": "array",
+                            "items": {
+                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items",
+                                "anyOf": [
+                                    {
+                                        "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0",
+                                        "type": "object",
+                                        "properties": {
+                                            "season": {
+                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/season",
+                                                "type": "string"
+                                            },
+                                            "round": {
+                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/round",
+                                                "type": "string"
+                                            },
+                                            "url": {
+                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/url",
+                                                "type": "string"
+                                            },
+                                            "raceName": {
+                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/raceName",
+                                                "type": "string"
+                                            },
+                                            "Circuit": {
+                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/Circuit",
+                                                "type": "object",
+                                                "properties": {
+                                                    "circuitId": {
+                                                        "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/Circuit/properties/circuitId",
+                                                        "type": "string"
+                                                    },
+                                                    "url": {
+                                                        "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/Circuit/properties/url",
+                                                        "type": "string"
+                                                    },
+                                                    "circuitName": {
+                                                        "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/Circuit/properties/circuitName",
+                                                        "type": "string"
+                                                    },
+                                                    "Location": {
+                                                        "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/Circuit/properties/Location",
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "lat": {
+                                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/Circuit/properties/Location/properties/lat",
+                                                                "type": "string"
+                                                            },
+                                                            "long": {
+                                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/Circuit/properties/Location/properties/long",
+                                                                "type": "string"
+                                                            },
+                                                            "locality": {
+                                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/Circuit/properties/Location/properties/locality",
+                                                                "type": "string"
+                                                            },
+                                                            "country": {
+                                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/Circuit/properties/Location/properties/country",
+                                                                "type": "string"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "date": {
+                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/date",
+                                                "type": "string"
+                                            },
+                                            "time": {
+                                                "$id": "#/properties/MRData/properties/RaceTable/properties/Races/items/anyOf/0/properties/time",
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
