@@ -1,4 +1,4 @@
-package com.ria;
+package com.riaTestRunner;
 
 import org.junit.runner.RunWith;
 

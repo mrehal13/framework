@@ -1,5 +1,7 @@
-C:\Users\MR788s\Documents\dm\frame\src\test\java\erg\steps\ErgastStepDefination.java
-C:\Users\MR788s\Documents\dm\frame\src\test\java\erg\steps\GsonSerializationTest.java
-C:\Users\MR788s\Documents\dm\frame\src\test\java\com\ria\RiaLoginTestRunner.java
-C:\Users\MR788s\Documents\dm\frame\src\test\java\com\web\RiaLogin.java
-C:\Users\MR788s\Documents\dm\frame\src\test\java\pageObjects\RiaLoginPO.java
+/Users/mandeeprehal/git/framework/src/test/java/erg/steps/GsonSerializationTest.java
+/Users/mandeeprehal/git/framework/src/test/java/erg/steps/ErgastStepDefination.java
+/Users/mandeeprehal/git/framework/src/test/java/com/hooks/HooksClass.java
+/Users/mandeeprehal/git/framework/src/test/java/com/redirect/URLVerification.java
+/Users/mandeeprehal/git/framework/src/test/java/com/web/RiaLogin.java
+/Users/mandeeprehal/git/framework/src/test/java/com/riaTestRunner/RiaLoginTestRunner.java
+/Users/mandeeprehal/git/framework/src/test/java/pageObjects/RiaLoginPO.java

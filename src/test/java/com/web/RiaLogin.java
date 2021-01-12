@@ -22,7 +22,6 @@ public class RiaLogin {
 
 	@Given("User opens the browser and navigates to home page")
 	public void user_opens_the_browser_and_navigates_to_home_page() {
-
 		BaseClass.getURL("https://www.riamoneytransfer.com/us/en/sign-in");
 		BaseClass.waitScenario(pObj.username_textbox);
 	}
@@ -30,7 +29,6 @@ public class RiaLogin {
 
 	@When("User enters username and password and click submit button")
 	public void user_enters_username_and_password_and_click_submit_button() {
-
 		BaseClass.enterText(pObj.username_textbox, BaseClass.credentialProperty("username"));
 		BaseClass.enterText(pObj.password_textbox, BaseClass.credentialProperty("password"));
 		BaseClass.clickElement(pObj.signIn_button);

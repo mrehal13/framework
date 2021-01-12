@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7118000000,
+              "duration": 4411000000,
               "status": "passed"
             },
             "line": 4,
@@ -24,17 +24,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-21T19:52:04.455Z",
+        "start_timestamp": "2021-01-12T20:42:21.782Z",
         "line": 7,
-        "name": "Verify successfull login",
+        "name": "TC001 Verify successfull login",
         "description": "",
-        "id": "login-to-website;verify-successfull-login",
+        "id": "login-to-website;tc001-verify-successfull-login",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10368000000,
+              "duration": 5749000000,
               "status": "passed"
             },
             "line": 8,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 4620000000,
+              "duration": 3785000000,
               "status": "passed"
             },
             "line": 9,
@@ -58,6 +58,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -83,7 +84,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7011000000,
+              "duration": 4771000000,
               "status": "passed"
             },
             "line": 4,
@@ -96,17 +97,17 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-21T19:52:26.714Z",
+        "start_timestamp": "2021-01-12T20:42:35.861Z",
         "line": 25,
-        "name": "Verify successfull login",
+        "name": "TC004 Verify successfull login",
         "description": "",
-        "id": "login-to-website;verify-successfull-login",
+        "id": "login-to-website;tc004-verify-successfull-login",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 11085000000,
+              "duration": 6433000000,
               "status": "passed"
             },
             "line": 26,
@@ -118,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 5218000000,
+              "duration": 3960000000,
               "status": "passed"
             },
             "line": 27,

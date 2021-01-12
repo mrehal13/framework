@@ -38,7 +38,7 @@ public class BaseClass {
 
 		if(browser.equalsIgnoreCase(FIREFOX)) {
 			cap.setBrowserName(FIREFOX);
-			cap .setPlatform(Platform.WIN10);
+			cap.setPlatform(Platform.WIN10);
 
 			try {
 				driver = new RemoteWebDriver(new URL(hubURL), cap);
@@ -53,7 +53,7 @@ public class BaseClass {
 		}
 		else if(browser.equalsIgnoreCase(CHROME)) {
 			cap.setBrowserName(CHROME);
-			cap .setPlatform(Platform.WIN10);
+			cap.setPlatform(Platform.WIN10);
 
 			try {
 				driver = new RemoteWebDriver(new URL(hubURL), cap);
@@ -97,7 +97,7 @@ public class BaseClass {
 		String browser = System.getProperty("browser");
 
 		if(browser.equalsIgnoreCase(FIREFOX)) {
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/servers/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/servers/geckodriver");
 			driver = new FirefoxDriver();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
