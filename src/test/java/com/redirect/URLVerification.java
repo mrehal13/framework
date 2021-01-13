@@ -21,7 +21,7 @@ public class URLVerification {
 
 	WebDriver driver;
 
-	@BeforeTest
+	//@BeforeTest
 	public void setUp() {
 		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/servers/geckodriver.exe");
 		driver = new FirefoxDriver();
@@ -31,7 +31,7 @@ public class URLVerification {
 
 	}
 
-	@Test
+	//@Test
 	public void verify() throws IOException{
 		//File file = new File("C:/Users/MR788s/Documents/FinalReport.xlsx");
 		FileInputStream fis = new FileInputStream("C:/Users/MR788s/Documents/FinalReport.xlsx");

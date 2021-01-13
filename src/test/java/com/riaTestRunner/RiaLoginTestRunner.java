@@ -1,7 +1,10 @@
 package com.riaTestRunner;
 
 import org.junit.runner.RunWith;
+import org.testng.annotations.Test;
 
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+import cucumber.api.testng.TestNGCucumberRunner;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
@@ -12,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		tags="@Smoke",
 		plugin = { "json:target/reports/cucumber.json", "pretty", "html:target/reports/cucumber-reports"} 
 		)
-public class RiaLoginTestRunner {
+public class RiaLoginTestRunner{
 
 }
 
